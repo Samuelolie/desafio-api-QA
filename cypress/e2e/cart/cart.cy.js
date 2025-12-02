@@ -10,7 +10,7 @@ describe("Produtos", () => {
   let token;
   let header;
   beforeEach(() => {
-    baseUrl = Cypress.env("baseUrl");
+    baseUrl = "https://serverest.dev/";
     cy.loginRequest(baseUrl, null, loginFixture).then((response) => {
       expect(response.status).to.eq(200);
       expect(response.body.message).to.eq("Login realizado com sucesso");

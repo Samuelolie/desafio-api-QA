@@ -4,7 +4,7 @@ describe("Usuários", () => {
   let baseUrl;
   let bodyRegister;
   beforeEach(() => {
-    baseUrl = Cypress.env("baseUrl");
+    baseUrl = "https://serverest.dev/";
   });
 
   it("Busca usuários cadastrados", () => {

@@ -7,7 +7,7 @@ describe("Produtos", () => {
   let token;
   let header;
   beforeEach(() => {
-    baseUrl = Cypress.env("baseUrl");
+    baseUrl = "https://serverest.dev/";
   });
 
   it("Busca produto cadastrados", () => {

@@ -2,7 +2,7 @@ import loginFixture from "../../fixtures/bodyLogin.json";
 describe("Login", () => {
   let baseUrl;
   beforeEach(() => {
-    baseUrl = Cypress.env("baseUrl");
+    baseUrl = "https://serverest.dev/";
   });
 
   it("Login com sucesso", () => {
